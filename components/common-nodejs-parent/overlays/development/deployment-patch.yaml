@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/arewm-tenant/build-nudge-example/common-nodejs-parent@sha256:09553ce05b10cbc194dcf8f86fb8f4dae7ca275cb00b09004d6793076fcabd3d
+      - image: quay.io/redhat-user-workloads/arewm-tenant/build-nudge-example/common-nodejs-parent@sha256:6c40acf3e4b24e056fcf1b3598064d0cf2468c59fc2a1e7016d236869512a5ce
         name: container-image
         resources: {}
 status: {}
