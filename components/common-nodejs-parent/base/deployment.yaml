@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: common-nodejs-parent
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/arewm-tenant/build-nudge-example/common-nodejs-parent@sha256:1052dc471b4c7608c637094ba7a4c30c71ae3d631a032b5b89b778265cb48a81
+      - image: quay.io/redhat-user-workloads/arewm-tenant/build-nudge-example/common-nodejs-parent@sha256:fecc19573589222391c193fd7c40b8627dac2ad7b6b3ab22660e1d55dc2c895d
         imagePullPolicy: Always
         name: container-image
         ports:
